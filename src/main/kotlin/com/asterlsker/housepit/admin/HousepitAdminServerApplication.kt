@@ -4,8 +4,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class HousepitServerApplication
+class HousepitAdminServerApplication
 
 fun main(args: Array<String>) {
-    runApplication<HousepitServerApplication>(*args)
+    runApplication<HousepitAdminServerApplication>(*args)
 }
